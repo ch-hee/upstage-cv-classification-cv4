@@ -92,6 +92,7 @@
     - Width - Mean: 497.61 / STD: 79.35
     
     - Height - Mean: 538.17 / STD: 76.05
+    <img src = "https://github.com/UpstageAILab/upstage-cv-classification-cv4/assets/73140315/5fcf1731-f2ad-401f-a62e-40a5a384071d" width="60%" height="60%">
     
     ![](https://github.com/UpstageAILab/upstage-cv-classification-cv4/assets/73140315/5fcf1731-f2ad-401f-a62e-40a5a384071d)
   
@@ -101,7 +102,7 @@
     
     - Height - Mean: 518.55 / STD: 79.79
     
-    <img src = "https://github.com/UpstageAILab/upstage-cv-classification-cv4/assets/73140315/b6f9d3d9-b561-415e-bce2-f3192134f5cb" width="90%" height="90%">
+    <img src = "https://github.com/UpstageAILab/upstage-cv-classification-cv4/assets/73140315/b6f9d3d9-b561-415e-bce2-f3192134f5cb" width="60%" height="60%">
 
 ### Data Processing
 
