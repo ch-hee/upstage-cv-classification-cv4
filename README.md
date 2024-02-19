@@ -109,7 +109,7 @@
 
 2)  Augmentation
    
-   - 주어진 학습 데이터의 수(1,570장)가 평가 데이터(3,140장)의 수보다 적어 다양한 augmentation 기법을 활용하여 이를 보완하였음
+   - 주어진 학습 데이터의 수(1,570장)가 평가 데이터(3,140장)의 수보다 적고, 정방향의 선명한 학습 데이터와 다르게 평가 데이터는 많이 변형되어 있기 때문에 다양한 augmentation 기법을 활용하여 이를 보완하였음
    
    - 학습 시간 단축을 위해 augmentation을 거친 이미지를 저장하여 사용하는 offline 방식으로 증강
    
@@ -123,11 +123,28 @@
 
 ### Model descrition
 
-- 
+- **이소영**
+  - resnet50, resnext50, efficientnet_b0, efficientnet_b4 pre-trained 모델로 실험
+    - 성능이 가장 좋았던 efficientnet_b4으로 고정
+  - 
 
 ### Modeling Process
 
-- _Write model train and test process with capture_
+- **이소영**
+  - 이미지 전처리 시 Resize 대신 문서의 가로 세로 비율이 유지되도록 Padding 적용 -> 성능 향상
+  
+  - 예측 결과를 시각화하여 양식이 유사한 3, 7, 14 클래스에 대한 예측 성능이 떨어진다는 것을 확인
+    
+    - 3, 7, 14 클래스에 대한 샘플링 가중치를 증가시킴 -> 성능 향상
+    - 3, 7, 14 클래스 별도 학습
+      - efficientnet_b5 pre-trained 모델로 해당 클래스만 따로 학습하여 기존 결과값 대체 -> 스코어 향상
+  
+  - Test-Time Augmentation 적용
+    
+    - nference 단계에서 평가 이미지에 Flip(반전), RandomRotate(90도 단위 랜덤 회전)을 적용해 online 방식으로 augmentation하여 N회 예측 수행
+      - 20회 inference 후 soft-voting 앙상블 -> 스코어 향상
+- 리더보드 기준 최상위 예측값들을 hard-voting으로 앙상블
+  -> 최종 리더보드 Public 스코어 0.9631 달성
 
 ## 5. Result
 
