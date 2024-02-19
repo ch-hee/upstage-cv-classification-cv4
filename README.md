@@ -109,7 +109,7 @@
 - **Leader Board**
 
 <p align="center">
-<img src = "https://github.com/UpstageAILab/upstage-cv-classification-cv4/assets/73140315/7436c165-6dc7-4442-9b26-ba627ac45e790" width="60%" height="60%">
+<img src = "https://github.com/UpstageAILab/upstage-cv-classification-cv4/assets/73140315/7436c165-6dc7-4442-9b26-ba627ac45e790" width="90%" height="90%">
 </p>
 
 - **F1 Score**: 0.9547 
