@@ -85,6 +85,24 @@
   
   - 비교적 선명하고 정방향인 훈련 데이터셋과 달리 원본사진에서 회전, 좌우반전, 이동, 잉크번짐 등으로 변형된 사진들을 다수 확인할 수 있음.
 
+- 이미지 크기
+  
+  - 학습 데이터
+    
+    - Width - Mean: 497.61 / STD: 79.35
+    
+    - Height - Mean: 538.17 / STD: 76.05
+    
+    ![](https://github.com/UpstageAILab/upstage-cv-classification-cv4/assets/73140315/5fcf1731-f2ad-401f-a62e-40a5a384071d)
+  
+  - 평가 데이터
+    
+    - Width - Mean: 517.09 / STD: 79.83
+    
+    - Height - Mean: 518.55 / STD: 79.79
+    
+    <img src = "https://github.com/UpstageAILab/upstage-cv-classification-cv4/assets/73140315/b6f9d3d9-b561-415e-bce2-f3192134f5cb" width="90%" height="90%">
+
 ### Data Processing
 
 - **김형수**: 
