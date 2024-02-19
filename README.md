@@ -87,7 +87,10 @@
 
 ### Data Processing
 
-- _Describe data processing process (e.g. Data Labeling, Data Cleaning..)_
+- **김형수**: 
+  - **Albumentation**: Albumentation 라이브러리에서 **HorizontalFlip**, **Blur**,**GaussianNoise**, **ShiftScaleRotation**을 활용하여 훈련데이터를 변형하고 데이터의 수를 증강
+  - **Augraphy**: Augraphy 라이브러리에서 **BrightnessTexturize**와 **InkBleed** 방식을 활용하여 훈련데이터를 변형하고 데이터 수를 증강
+  - 최초 1570개의 훈련데이터에서 최종 175840개로 훈련데이터를 확보
 
 ## 4. Modeling
 
