@@ -105,7 +105,9 @@
     <p align="center">
     <img src = "https://github.com/UpstageAILab/upstage-cv-classification-cv4/assets/73140315/b611985a-1451-47b7-9008-4468574788b0" width="40%" height="40%">
     </p>
-
+- 잘못 라벨링 된 데이터
+  - 8개의 잘못 라벨링 된 데이터 수정
+    
 - 테스트셋에서의 이미지
   
   - 비교적 선명하고 정방향인 훈련 데이터셋과 달리 원본사진에서 회전, 좌우반전, 이동, 잉크번짐 등으로 변형된 사진들을 다수 확인할 수 있음.
