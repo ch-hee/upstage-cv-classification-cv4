@@ -33,31 +33,49 @@
 ### Directory
 
 ```
+├── README.md
 ├── changhee
 │   ├── DTC.ipynb
 │   ├── aug_data1.ipynb
-│   └── aug_data2.ipynb-
+│   └── aug_data2.ipynb
 ├── hayeon
 │   └── EDA.ipynb
-├── docs
-│   ├── pdf
-│   │   └── (Template) [패스트캠퍼스] Upstage AI Lab 1기_그룹 스터디 .pptx
-│   └── paper
-└── input
-    └── data
-        ├── eval
-        └── train
+├── hyeongsoo
+│   ├── augmentation_1.ipynb
+│   ├── augmentation_2.ipynb
+│   ├── augmentation_3.ipynb
+│   ├── augmentation_4.ipynb
+│   ├── augmentation_5.ipynb
+│   ├── eda_1.ipynb
+│   ├── eda_2.ipynb
+│   └── eda_3.ipynb
+├── seongjun
+│   ├── 02.ipynb
+│   ├── 04.ipynb
+│   └── EDA01.ipynb
+├── seunghyun
+│   ├── augment.ipynb
+│   ├── augmentation.ipynb
+│   ├── augmentation_240213.ipynb
+│   └── model_240215.ipynb
+└── soyoung
+    ├── code_0207.ipynb
+    ├── eda_code.ipynb
+    └── offline_aug_f.ipynb
 ```
 
 ## 3. Data descrption
 
 ### Dataset overview
 
-- _Explain using data_
+- **(훈련 데이터셋)** 운전면허증, 진료확인서, 이력서, 차량 번호판 등 총 17종의 1570장의 문서 이미지
+- **(테스트 데이터셋)** 훈련 데이터셋과 동일하게 17종의 문서 유형을 가진 3140장의 문서 이미지
 
 ### EDA
 
-- _Describe your EDA process and step-by-step conclusion_
+- 클래스 불균형
+  - 0 ~ 16번까지의 클래스 중 1, 13, 14번의 클래스를 가진 이미지의 수가 타 클래스에 비해 적은 것을 확인
+  - ![class_imbalance](https://github.com/UpstageAILab/upstage-cv-classification-cv4/assets/73140315/b611985a-1451-47b7-9008-4468574788b0)
 
 ### Data Processing
 
