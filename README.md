@@ -114,7 +114,7 @@
 
 ### Meeting Log
 
-- [Notion – The all-in-one workspace for your notes, tasks, wikis, and databases.](https://quickest-asterisk-75d.notion.site/d7375c36ef604a78aefb28206824c8f4?v=62365b42756244cf82f399cc24ed5bf0)
+- https://quickest-asterisk-75d.notion.site/d7375c36ef604a78aefb28206824c8f4?v=62365b42756244cf82f399cc24ed5bf0
 
 ### Reference
 
