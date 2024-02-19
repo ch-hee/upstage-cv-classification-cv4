@@ -92,7 +92,8 @@
     - Width - Mean: 497.61 / STD: 79.35
     
     - Height - Mean: 538.17 / STD: 76.05
-    <img src = "https://github.com/UpstageAILab/upstage-cv-classification-cv4/assets/73140315/5fcf1731-f2ad-401f-a62e-40a5a384071d" width="50%" height="50%">
+      
+      <img src = "https://github.com/UpstageAILab/upstage-cv-classification-cv4/assets/73140315/5fcf1731-f2ad-401f-a62e-40a5a384071d" width="50%" height="50%">
   
   - 평가 데이터
     
@@ -104,16 +105,25 @@
 
 ### Data Processing
 
-- **김형수**: 
-  - **Albumentation**: Albumentation 라이브러리에서 **HorizontalFlip**, **Blur**,**GaussianNoise**, **ShiftScaleRotation**을 활용하여 훈련데이터를 변형하고 데이터의 수를 증강
-  - **Augraphy**: Augraphy 라이브러리에서 **BrightnessTexturize**와 **InkBleed** 방식을 활용하여 훈련데이터를 변형하고 데이터 수를 증강
-  - 최초 1,570개의 훈련데이터에서 최종 175,840개로 훈련데이터를 확보
+1)  학습 데이터에서 잘못 레이블 되어 있는 데이터를 찾아 수정
+
+2)  Augmentation
+   
+   - 주어진 학습 데이터의 수(1,570장)가 평가 데이터(3,140장)의 수보다 적어 다양한 augmentation 기법을 활용하여 이를 보완하였음
+   
+   - 학습 시간 단축을 위해 augmentation을 거친 이미지를 저장하여 사용하는 offline 방식으로 증강
+   
+   - **Albumentation**: Albumentation 라이브러리에서 **Transpose**, **ToGray**, **HorizontalFlip**, **Blur**,**GaussianNoise**, **ShiftScaleRotation** 등을 활용하여 훈련데이터를 변형하고 데이터의 수를 증강
+   
+   - **Augraphy**: Augraphy 라이브러리에서는 **PatternGenerator**, **BrightnessTexturize**와 **InkBleed** 방식을 활용하여 훈련데이터를 변형하고 데이터 수를 증강
+
+3- 클래스 불균형을 oversampling을 통해 보완
 
 ## 4. Modeling
 
 ### Model descrition
 
-- s
+- 
 
 ### Modeling Process
 
