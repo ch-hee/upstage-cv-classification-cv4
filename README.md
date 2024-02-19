@@ -74,10 +74,16 @@
 ### EDA
 
 - 클래스 불균형
+  
   - 0 ~ 16번까지의 클래스 중 1, 13, 14번의 클래스를 가진 이미지의 수가 타 클래스에 비해 적은 것을 확인
-<p align="center">
-<img src = "https://github.com/UpstageAILab/upstage-cv-classification-cv4/assets/73140315/b611985a-1451-47b7-9008-4468574788b0" width="40%" height="40%">
-</p>
+    
+    <p align="center">
+    <img src = "https://github.com/UpstageAILab/upstage-cv-classification-cv4/assets/73140315/b611985a-1451-47b7-9008-4468574788b0" width="40%" height="40%">
+    </p>
+
+- 테스트셋에서의 이미지
+  
+  - 비교적 선명하고 정방향인 훈련 데이터셋과 달리 원본사진에서 회전, 좌우반전, 이동, 잉크번짐 등으로 변형된 사진들을 다수 확인할 수 있음.
 
 ### Data Processing
 
@@ -108,7 +114,7 @@
 
 ### Meeting Log
 
-- _Insert your meeting log link like Notion or Google Docs_
+- [Notion – The all-in-one workspace for your notes, tasks, wikis, and databases.](https://quickest-asterisk-75d.notion.site/d7375c36ef604a78aefb28206824c8f4?v=62365b42756244cf82f399cc24ed5bf0)
 
 ### Reference
 
