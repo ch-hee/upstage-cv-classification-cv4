@@ -36,33 +36,8 @@
 ├── README.md
 ├── changhee
 │   ├── DTC.ipynb
-|   ├── DTC2.ipynb
-|   ├── DTC2_mixup.ipynb
-|   ├── DTC3.ipynb
-│   ├── DTC4.ipynb
-|   ├── DTC5.ipynb
-|   ├── DTC6.ipynb
-|   ├── DTC7.ipynb
-│   ├── DTC8.ipynb
-|   ├── DTC9.ipynb
-|   ├── DTC10.ipynb
-|   ├── DTC11.ipynb
-│   ├── DTC12.ipynb
-|   ├── DTC13.ipynb
-|   ├── DTC14.ipynb
-|   ├── DTC15.ipynb
-│   ├── DTC16.ipynb
-|   ├── DTC17.ipynb
-|   ├── DTC18.ipynb
-|   ├── DTC19.ipynb
-│   ├── DTC20.ipynb
-|   ├── eda.ipynb
 │   ├── aug_data1.ipynb
 │   └── aug_data2.ipynb
-│   └── aug_data2A.ipynb
-│   ├── aug_data3.ipynb
-│   └── aug_data4.ipynb
-│   └── aug_data5.ipynb
 ├── hayeon
 │   └── EDA.ipynb
 ├── hyeongsoo
@@ -103,11 +78,9 @@
   - 0 ~ 16번까지의 클래스 중 1, 13, 14번의 클래스를 가진 이미지의 수가 타 클래스에 비해 적은 것을 확인
     
     <p align="center">
-    <img src = "https://github.com/UpstageAILab/upstage-cv-classification-cv4/assets/73140315/b611985a-1451-47b7-9008-4468574788b0" width="40%" height="40%">
+    <img src = "https://github.com/UpstageAILab/upstage-cv-classification-cv4/assets/73140315/b611985a-1451-47b7-9008-4468574788b0" width="60%" height="60%">
     </p>
-- 잘못 라벨링 된 데이터
-  - 8개의 잘못 라벨링 된 데이터 수정
-    
+
 - 테스트셋에서의 이미지
   
   - 비교적 선명하고 정방향인 훈련 데이터셋과 달리 원본사진에서 회전, 좌우반전, 이동, 잉크번짐 등으로 변형된 사진들을 다수 확인할 수 있음.
@@ -117,13 +90,13 @@
 - **김형수**: 
   - **Albumentation**: Albumentation 라이브러리에서 **HorizontalFlip**, **Blur**,**GaussianNoise**, **ShiftScaleRotation**을 활용하여 훈련데이터를 변형하고 데이터의 수를 증강
   - **Augraphy**: Augraphy 라이브러리에서 **BrightnessTexturize**와 **InkBleed** 방식을 활용하여 훈련데이터를 변형하고 데이터 수를 증강
-  - 최초 1570개의 훈련데이터에서 최종 175840개로 훈련데이터를 확보
+  - 최초 1,570개의 훈련데이터에서 최종 175,840개로 훈련데이터를 확보
 
 ## 4. Modeling
 
 ### Model descrition
 
-- _Write model information and why your select this model_
+- 
 
 ### Modeling Process
 
@@ -133,14 +106,19 @@
 
 ### Leader Board
 
-- _Insert Leader Board Capture_
-- _Write rank and score_
+- **Leader Board**
+
+<p align="center">
+<img src = "https://github.com/UpstageAILab/upstage-cv-classification-cv4/assets/73140315/7436c165-6dc7-4442-9b26-ba627ac45e790" width="60%" height="60%">
+</p>
+
+- **F1 Score**: 0.9547 
 
 ### Presentation
 
 - _Insert your presentaion file(pdf) link_
 
-## etc
+## 6. etc
 
 ### Meeting Log
 
