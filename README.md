@@ -156,7 +156,10 @@
 - **이소영**
   - resnet50, resnext50, efficientnet_b0, efficientnet_b4 pre-trained 모델로 실험
     - 성능이 가장 좋았던 efficientnet_b4으로 고정
-  - 
+- **강승현**
+  - timm : resnet34, resnet50, wide_resnet101_2, efficientnet_b0
+  - huggingface transformers : [dit-large-finetuned-rvlcdip](https://huggingface.co/microsoft/dit-large-finetuned-rvlcdip)
+    - 학습 시간과 리더보드 결과를 고려했을 때 efficientnet_b0 최종 선택
 
 ### Modeling Process
 
@@ -175,6 +178,19 @@
       - 20회 inference 후 soft-voting 앙상블 -> 스코어 향상
 - 리더보드 기준 최상위 예측값들을 hard-voting으로 앙상블
   -> 최종 리더보드 Public 스코어 0.9631 달성
+  
+- **강승현**
+  - 데이터 분할
+    - K-Fold Cross-Validation 후 voting
+    - 8 : 2 , 9 : 1 random split
+      - 최종 선택 :  K-Fold Cross-Validation 후 voting
+  - 학습률(LR) : 0.001 ~ 0.005
+    - 최종 선택 : 0.001
+  - Earlystopping 적용(patience : 2 ~ 5)
+    - 최종 선택 : 5
+  - 손실 함수는 Cross-Entropy Loss 최적화 알고리즘은 Adam 사용
+
+    -> 최종 리더보드 Public 스코어 0.9397 달성
 
 ## 5. Result
 
