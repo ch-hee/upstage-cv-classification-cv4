@@ -89,9 +89,10 @@
 │   ├── augmentation_240213.ipynb
 │   └── model_240215.ipynb
 └── soyoung
-    ├── code_0207.ipynb
+    ├── offline_augmentation.ipynb
     ├── eda_code.ipynb
-    └── offline_aug_f.ipynb
+    ├── custom_efficientnetb4.ipynb
+    └── 3_7_14_classifier.ipynb
 ```
 
 ## 3. Data descrption
