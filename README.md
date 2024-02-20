@@ -233,7 +233,7 @@
 ### Presentation
 
 - https://docs.google.com/presentation/d/1iv7GAZ4cH0iCpFHj8IhVVAvt-fD_SzIziVl9zdpGBP8/edit#slide=id.g2ba9187747f_0_128
-- [PDF](https://github.com/UpstageAILab/upstage-cv-classification-cv4/blob/main/%5B패스트캠퍼스%5D%20Upstage%20AI%20Lab%201기_4조_경진대회%20발표자료.pdf)
+- [PDF](https://github.com/UpstageAILab/upstage-cv-classification-cv4/blob/a59d60165f1eb8c928c105701c66ad7966ce5fd5/%5B%E1%84%91%E1%85%A2%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%E1%84%8F%E1%85%A2%E1%86%B7%E1%84%91%E1%85%A5%E1%84%89%E1%85%B3%5D%20Upstage%20AI%20Lab%201%E1%84%80%E1%85%B5_4%E1%84%8C%E1%85%A9_%E1%84%80%E1%85%A7%E1%86%BC%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%83%E1%85%A2%E1%84%92%E1%85%AC%20%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD.pdf)
 
 ## 6. etc
 
