@@ -232,7 +232,7 @@
 
 ### Presentation
 
-- _Insert your presentaion file(pdf) link_
+- https://docs.google.com/presentation/d/1iv7GAZ4cH0iCpFHj8IhVVAvt-fD_SzIziVl9zdpGBP8/edit#slide=id.g2ba9187747f_0_128
 
 ## 6. etc
 
