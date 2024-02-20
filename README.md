@@ -197,7 +197,7 @@
     
 - **김하연**
   - Hybrid EfficientNet Swin-Transformer
-    ![KakaoTalk_20240215_100433562](https://github.com/UpstageAILab/upstage-cv-classification-cv4/assets/106041730/8fb4f1df-5075-4502-9355-39d96d379104)
+    <img src="https://github.com/UpstageAILab/upstage-cv-classification-cv4/assets/106041730/8fb4f1df-5075-4502-9355-39d96d379104" alt="Hybrid EfficientNet Swin-Transformer" width="300"/>
 
     - ImageNet이 사전학습된 EfficientNet 인코더와 swin transformer block을 활용하는 Hybrid Swin Transformer 사용
     - Train Accuracy: 0.8893, Train F1 Score: 0.8546, Validation Accuracy: 0.8604, Validation F1 Score: 0.8224
