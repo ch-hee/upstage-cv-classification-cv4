@@ -35,9 +35,34 @@
 ```
 ├── README.md
 ├── changhee
-│   ├── DTC.ipynb
-│   ├── aug_data1.ipynb
-│   └── aug_data2.ipynb
+│   ├──DTC.ipynb
+│   ├──DTC10.ipynb
+│   ├──DTC11.ipynb
+│   ├──DTC12.ipynb
+│   ├──DTC13.ipynb
+│   ├──DTC14.ipynb
+│   ├──DTC15.ipynb
+│   ├──DTC16.ipynb
+│   ├──DTC17.ipynb
+│   ├──DTC18.ipynb
+│   ├──DTC19.ipynb
+│   ├──DTC2.ipynb
+│   ├──DTC20.ipynb
+│   ├──DTC2_mixup.ipynb
+│   ├──DTC3.ipynb
+│   ├──DTC4.ipynb
+│   ├──DTC5.ipynb
+│   ├──DTC6.ipynb
+│   ├──DTC7.ipynb
+│   ├──DTC8.ipynb
+│   ├──DTC9.ipynb
+│   ├──aug_data1.ipynb
+│   ├──aug_data2.ipynb
+│   ├──aug_data2A.ipynb
+│   ├──aug_data3.ipynb
+│   ├──aug_data4.ipynb
+│   ├──aug_data5.ipynb
+│   └── eda.ipynb
 ├── hayeon
 │   ├── Denoising.ipynb
 │   ├── EDA.ipynb
