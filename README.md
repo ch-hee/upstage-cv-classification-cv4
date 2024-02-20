@@ -200,10 +200,10 @@
     - Train Accuracy: 0.8893, Train F1 Score: 0.8546, Validation Accuracy: 0.8604, Validation F1 Score: 0.8224
       
   - EfficientNet Ensemble
-    | ![image](https://github.com/UpstageAILab/upstage-cv-classification-cv4/assets/106041730/1f46a7ef-4cfa-4200-9493-fe99fc56cb38)
- | ![image](https://github.com/UpstageAILab/upstage-cv-classification-cv4/assets/106041730/5b1c1d9e-42e8-4c1b-938d-0bf7c9d3aac7)
- | ![image](https://github.com/UpstageAILab/upstage-cv-classification-cv4/assets/106041730/da3e5e60-b831-47de-8c6a-61d481fb5e2d)|
+| ![EfficientNet-B0](https://github.com/UpstageAILab/upstage-cv-classification-cv4/assets/106041730/1f46a7ef-4cfa-4200-9493-fe99fc56cb38) | ![EfficientNet-B1](https://github.com/UpstageAILab/upstage-cv-classification-cv4/assets/106041730/5b1c1d9e-42e8-4c1b-938d-0bf7c9d3aac7) | ![EfficientNet-B2](https://github.com/UpstageAILab/upstage-cv-classification-cv4/assets/106041730/da3e5e60-b831-47de-8c6a-61d481fb5e2d)|
+|:---:|:---:|:---:|
 | EfficientNet-B0 | EfficientNet-B1 | EfficientNet-B2 |
+
     - EfficientNet B0, B1, B2는 모델 크기와 input image resolution에서 차이가 있으며 B0가 가장 작은 크기를 가지고 B2가 상대적으로 큰 크기를 가짐
     - 각 모델을 K-Fold 진행
     - 세 모델 결과값 hard voting ensemble하여 최종 제출 결과 f1 score 0.9384
