@@ -136,9 +136,9 @@
 
 ### Data Processing
 
-1)  학습 데이터에서 잘못 레이블 되어 있는 데이터를 찾아 수정
+1) 학습 데이터에서 잘못 레이블 되어 있는 데이터를 찾아 수정
 
-2)  Augmentation
+2) Augmentation
    
    - 주어진 학습 데이터의 수(1,570장)가 평가 데이터(3,140장)의 수보다 적고, 정방향의 선명한 학습 데이터와 다르게 평가 데이터는 많이 변형되어 있기 때문에 다양한 augmentation 기법을 활용하여 이를 보완하였음
    
@@ -148,7 +148,7 @@
    
    - **Augraphy**: Augraphy 라이브러리에서는 **PatternGenerator**, **BrightnessTexturize**와 **InkBleed** 방식을 활용하여 훈련데이터를 변형하고 데이터 수를 증강
 
-3- 클래스 불균형을 oversampling을 통해 보완
+3) 클래스 불균형을 oversampling을 통해 보완
 
 ## 4. Modeling
 
