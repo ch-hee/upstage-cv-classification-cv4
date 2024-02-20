@@ -162,7 +162,8 @@
     - 학습 시간과 리더보드 결과를 고려했을 때 efficientnet_b0 최종 선택
 - **김하연**
   - Hybrid EfficientNet Swin-Transformer, efficientnet_b0, efficientnet_b1, efficientnet_b2
-
+- **김창희**
+  - resnet_34, deit_base_patch16_224, vit, efficientnet_b0, efficientnet_b4 중 efficientnet_b4가 가장 성능이 좋아 선택
 ### Modeling Process
 
 - **이소영**
@@ -207,7 +208,13 @@
     - EfficientNet B0, B1, B2는 모델 크기와 input image resolution에서 차이가 있으며 B0가 가장 작은 크기를 가지고 B2가 상대적으로 큰 크기를 가짐
     - 각 모델을 K-Fold 진행
     - 세 모델 결과값 hard voting ensemble하여 최종 제출 결과 f1 score 0.9384
-
+- **김창희**
+    - 3, 4, 7, 14 번에 예측 성능이 떨어지는 것을 확인 
+    	- 3, 4, 7, 14번에 클래스 가중치 적용
+    	- 3, 4, 7, 14번 데이터 추가적인 증강 
+    - fine-tuning에서 lr과 batch_size에는 양의 상관관계가 있다는 것을 확인 
+    	- 최적의 조합인 batch_size : 16, lr : 1e-4 사용 
+    - 최종적으로 상위 3개의 예측값들을 hard-voting으로 앙상블 -> 0.9560
 
 ## 5. Result
 
