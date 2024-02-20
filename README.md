@@ -25,8 +25,8 @@
 
 ### Timeline
 
-- ex) February 5, 2024 - Start Date
-- ex) February 19, 2024 - Final submission deadline
+- February 5, 2024 - Start Date
+- February 19, 2024 - Final submission deadline
 
 ## 2. Components
 
