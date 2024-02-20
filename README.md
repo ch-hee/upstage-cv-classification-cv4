@@ -160,6 +160,8 @@
   - timm : resnet34, resnet50, wide_resnet101_2, efficientnet_b0
   - huggingface transformers : [dit-large-finetuned-rvlcdip](https://huggingface.co/microsoft/dit-large-finetuned-rvlcdip)
     - 학습 시간과 리더보드 결과를 고려했을 때 efficientnet_b0 최종 선택
+- **김하연**
+  - Hybrid EfficientNet Swin-Transformer, efficientnet_b0, efficientnet_b1, efficientnet_b2
 
 ### Modeling Process
 
@@ -191,6 +193,22 @@
   - 손실 함수는 Cross-Entropy Loss 최적화 알고리즘은 Adam 사용
 
     -> 최종 리더보드 Public 스코어 0.9397 달성
+    
+- **김하연**
+  - Hybrid EfficientNet Swin-Transformer
+    - ImageNet이 사전학습된 EfficientNet 인코더와 swin transformer block을 활용하는 Hybrid Swin Transformer 사용
+    - Train Accuracy: 0.8893, Train F1 Score: 0.8546, Validation Accuracy: 0.8604, Validation F1 Score: 0.8224
+      
+  - EfficientNet Ensemble
+    | ![image](https://github.com/UpstageAILab/upstage-cv-classification-cv4/assets/106041730/1f46a7ef-4cfa-4200-9493-fe99fc56cb38)
+) | ![image](https://github.com/UpstageAILab/upstage-cv-classification-cv4/assets/106041730/5b1c1d9e-42e8-4c1b-938d-0bf7c9d3aac7)
+ | ![image](https://github.com/UpstageAILab/upstage-cv-classification-cv4/assets/106041730/da3e5e60-b831-47de-8c6a-61d481fb5e2d)
+ |
+|:-------------------------------------------------------------:|:-------------------------------------------------------------:|:-------------------------------------------------------------:|
+| EfficientNet-B0 | EfficientNet-B1 | EfficientNet-B2 |
+    - EfficientNet B0, B1, B2는 모델 크기와 input image resolution에서 차이가 있으며 B0가 가장 작은 크기를 가지고 B2가 상대적으로 큰 크기를 가짐
+    - 각 모델을 K-Fold 진행
+    - 세 모델 결과값 hard voting ensemble하여 최종 제출 결과 f1 score 0.9384
 
 ## 5. Result
 
