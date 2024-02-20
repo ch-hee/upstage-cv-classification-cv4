@@ -204,9 +204,9 @@
     |:---:|:---:|:---:|
     | EfficientNet-B0 | EfficientNet-B1 | EfficientNet-B2 |
 
-- EfficientNet B0, B1, B2는 모델 크기와 input image resolution에서 차이가 있으며 B0가 가장 작은 크기를 가지고 B2가 상대적으로 큰 크기를 가짐
-- 각 모델을 K-Fold 진행
-- 세 모델 결과값 hard voting ensemble하여 최종 제출 결과 f1 score 0.9384
+    - EfficientNet B0, B1, B2는 모델 크기와 input image resolution에서 차이가 있으며 B0가 가장 작은 크기를 가지고 B2가 상대적으로 큰 크기를 가짐
+    - 각 모델을 K-Fold 진행
+    - 세 모델 결과값 hard voting ensemble하여 최종 제출 결과 f1 score 0.9384
 
 
 ## 5. Result
