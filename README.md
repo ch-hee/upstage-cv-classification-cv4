@@ -179,8 +179,8 @@
     
     - nference 단계에서 평가 이미지에 Flip(반전), RandomRotate(90도 단위 랜덤 회전)을 적용해 online 방식으로 augmentation하여 N회 예측 수행
       - 20회 inference 후 soft-voting 앙상블 -> 스코어 향상
-- 리더보드 기준 최상위 예측값들을 hard-voting으로 앙상블
-  -> 최종 리더보드 Public 스코어 0.9631 달성
+  - 리더보드 기준 최상위 예측값들을 hard-voting으로 앙상블
+      -> 최종 리더보드 Public 스코어 0.9631 달성
   
 - **강승현**
   - 데이터 분할
