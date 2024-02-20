@@ -217,7 +217,7 @@
     	- 3, 4, 7, 14번 데이터 추가적인 증강 
     - fine-tuning에서 lr과 batch_size에는 양의 상관관계가 있다는 것을 확인 
     	- 최적의 조합인 batch_size : 16, lr : 1e-4 사용 
-    - 최종적으로 상위 3개의 예측값들을 hard-voting으로 앙상블 -> 0.9560
+    - 최종적으로 상위 3개의 예측값들을 hard-voting으로 앙상블 -> public f1 score 0.9560
 
 ## 5. Result
 
